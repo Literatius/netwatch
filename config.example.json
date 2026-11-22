@@ -1,0 +1,27 @@
+{
+  "interval_seconds": 30,
+  "timeout_seconds": 3,
+  "api_url": "http://127.0.0.1:8000/checks",
+  "targets": [
+    {
+      "type": "tcp",
+      "address": "127.0.0.1:9000"
+    },
+    {
+      "type": "http",
+      "address": "http://127.0.0.1:9000/"
+    },
+    {
+      "type": "http",
+      "address": "http://127.0.0.1:9000/missing"
+    },
+    {
+      "type": "dns",
+      "address": "example.com"
+    },
+    {
+      "type": "tls",
+      "address": "example.com:443"
+    }
+  ]
+}

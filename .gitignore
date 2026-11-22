@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+dashboard.py
+inspect_db.py
+
+
+# SQLite
+*.db
+*.db-wal
+*.db-shm
+
+# Go
+*.exe
+
+# Local configuration
+config.json
+
+# Editor
+.vscode/
+.idea/
